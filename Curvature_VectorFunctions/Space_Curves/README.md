@@ -2,7 +2,7 @@
 In each example $F$ is the vector function being traced through the parameter range $t$.
 
 ### Trefoil Knot
-$F(t) = \langle (2+\cos(t))\cos(t),(2+\cos(1.5t))\sin(t),\sin(1.5t)\rangle$ traces out the famous Trefoil Knot; the simplest example of a prime Knot, taking a similar role to that of Hydrogen on the periodic table of Knots.
+$F(t) = \langle (2+\cos(t))\cos(t),(2+\cos(1.5t))\sin(t),\sin(1.5t)\rangle$ for $0\leq t\leq4\pi$ traces out the famous Trefoil Knot; the simplest example of a prime Knot, taking a similar role to that of Hydrogen on the periodic table of Knots.
 
 <img src="Visuals/trefoil_knot.gif" alt="alt-text" width="400" height="250">
 
