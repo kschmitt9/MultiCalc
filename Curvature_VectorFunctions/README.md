@@ -6,3 +6,5 @@ The code *anicurvature.m* takes as input the parametric equations for a vector f
 
 ## Archytas Curve
 Contains a story in addition to animations of the Archytas space curve. Archytas (born 427 BC) was an ancient Greek philosopher, mathematician, and king.
+
+Example and/or a story can be found in the folders.
