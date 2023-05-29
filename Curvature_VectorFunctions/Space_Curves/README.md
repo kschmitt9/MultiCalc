@@ -19,11 +19,7 @@ $F(t) = \langle t^4,10\frac{\sin(t)}{t},te^{-z}-1\rangle$, $-2\leq t\leq2$
 ### Helix
 *(left)* $F(t) = \langle\sin(t),\cos(t),t\rangle$ and *(right)* $F(t)=\langle\cos(t),t,\sin(t)\rangle$, $0\leq t\leq2\pi$
 
-<div style="display: flex; justify-content: center;">
-  <img src="Visuals/Helix_z.gif" alt="alt-text" width="400" height="250">
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="Visuals/Helix_y.gif" alt="alt-text" width="400" height="250">
-</div>
+<img src="Visuals/Helix_z.gif" alt="alt-text" width="400" height="250"> <img src="Visuals/Helix_y.gif" alt="alt-text" width="400" height="250">
 
 ### Intersection of a cylinder and plane
 The vector function $F(t) = \langle\cos(t),\sin(t),2-\cos(t)\rangle$ for $0\leq t\leq2\pi$ traces out the intersection of the cylinder $x^2+y^2=1$ with the plane $y=x$.
