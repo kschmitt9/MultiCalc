@@ -8,6 +8,6 @@ The content here is contained in the 'Vectors_Planes_Surfaces' folder, roughly c
 
 ## Vector-valued functions, Space Curves, Brief Vector Calculus, Arclength and Curvature
 
-The content here is contained in the 'Curvature_VectorFunctions' folder. covering 13.1-13.3 of Stewart's *Early Transcendentals*. The highlights are animations for space curves and animating the circle of curvature, and the normal and tangent vectors as the curve is traversed in time. Included is a special project on the Archytas curve.
+The content here is contained in the 'Curvature_VectorFunctions' folder, covering 13.1-13.3 of Stewart's *Early Transcendentals*. The highlights are animations for space curves and animating the circle of curvature, and the normal and tangent vectors as the curve is traversed in time. Included is a special project on the Archytas curve.
 
 ## Functions of Several Variables, Partial Derivatives, The Gradient
