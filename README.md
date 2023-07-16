@@ -1,6 +1,5 @@
 # Multivarable Calculus
 Here I provide demonstrations and the code I used in my multivariable calculus course I taught during the summer 2023 at the University of Cincinnati.
-I also include here some special topics I covered during the course, such as the story of the Archytas curve in ancient Greece.
 
 ## Vectors, Dot and Cross Products, Equations of Lines, Planes, and Surfaces
 
@@ -11,3 +10,7 @@ The content here is contained in the 'Vectors_Planes_Surfaces' folder, roughly c
 The content here is contained in the 'Curvature_VectorFunctions' folder, covering 13.1-13.3 of Stewart's *Early Transcendentals*. The highlights are **(1)** animations for space curves and **(2)** animating the circle of curvature, and the normal, tangent, and binormal vectors as the curve is traversed in time (there is an option to include the normal and osculating plane). Included is **(3)** a project on the Archytas curve.
 
 ## Functions of Several Variables, Partial Derivatives, The Gradient
+
+## Multiple Integration
+
+## Vector Calculus
