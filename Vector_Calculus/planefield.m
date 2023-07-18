@@ -7,8 +7,8 @@ function planefield(F, G, range, gridDensity)
     [X, Y] = meshgrid(x, y);
     
     % Calculate the vector field.
-    U = F(X, Y, Z);
-    V = G(X, Y, Z);
+    U = F(X, Y);
+    V = G(X, Y);
     
     % Plot the vector field.
     quiver3(X, Y, U, V);
