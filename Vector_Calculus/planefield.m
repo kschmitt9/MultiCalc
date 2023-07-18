@@ -1,7 +1,7 @@
 function planefield(F, G, range, gridDensity)
     % Vector plane field visualization
     
-    % Define the x, y and z grids.
+    % Define the x and y grids.
     x = linspace(-range, range, gridDensity);
     y = linspace(-range, range, gridDensity);
     [X, Y] = meshgrid(x, y);
@@ -11,6 +11,6 @@ function planefield(F, G, range, gridDensity)
     V = G(X, Y);
     
     % Plot the vector field.
-    quiver3(X, Y, U, V);
+    quiver(X, Y, U, V);
     axis([-range range -range range]);
 end
