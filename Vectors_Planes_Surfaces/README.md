@@ -37,3 +37,10 @@ draws a cone with a plane whose intersection is the input 'conic'. Accepts 'line
 draws a hyperbolic paraboloid $z=ax^2-by^2$ with level curves $z=-.05,.05$ in blue and red respectively.
 
 <img src="Visuals/hyperbolicparaboloid.png" alt="alt-text" width="400" height="250">
+
+### graphsurf(f).m
+draws the surface $S$ defined by the equation $z=f(x,y)$ for a well-behaved function $f:\mathbb{R}^2\rightarrow\mathbb{R}$. There are options to change the domain $(x,y)\in D$ in the code. Below I have drawn an elliptic paraboloid $f(x,y)=2x^2+y^2+1$ and the infamous *monkey saddle* $f(x,y)=x^3-3xy^2$.
+
+<img src="Visuals/paraboloid.png" alt="alt-text" width="400" height="250">
+
+<img src="Visuals/monkeysaddle.png" alt="alt-text" width="400" height="250">
