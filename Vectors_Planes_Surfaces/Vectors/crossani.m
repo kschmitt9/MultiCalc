@@ -18,9 +18,9 @@ function crossani(A, B_original)
     view(-30,30);
 
     % Create dummy plots for the legend
-    h1 = quiver3(0, 0, 0, A(1), A(2), A(3), 'r', 'LineWidth', 2);
-    h2 = quiver3(0, 0, 0, 0, 0, 0, 'b', 'LineWidth', 2);
-    h3 = quiver3(0, 0, 0, 0, 0, 0, 'g', 'LineWidth', 2);
+    h1 = quiver3(0, 0, 0, A(1), A(2), A(3), 'r', 'LineWidth', 2,'autoscale','off');
+    h2 = quiver3(0, 0, 0, 0, 0, 0, 'b', 'LineWidth', 2,'autoscale','off');
+    h3 = quiver3(0, 0, 0, 0, 0, 0, 'g', 'LineWidth', 2,'autoscale','off');
 
     % Add a legend
     legend([h1, h2, h3], {'$\mathbf{a}$', '$\mathbf{b}$', '$\mathbf{a} \times \mathbf{b}$'}, 'Interpreter', 'latex','location','northeast');

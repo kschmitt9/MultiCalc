@@ -9,6 +9,8 @@ function hyperbolicparaboloid(a, b)
     % Plot the hyperbolic paraboloid
     figure;
     surf(X, Y, Z);
+    shading interp;
+    colormap(summer);
     hold on;
     
     % Set axis ticks and labels
@@ -20,18 +22,14 @@ function hyperbolicparaboloid(a, b)
     zlabel('$z$', 'interpreter', 'latex', 'fontsize', 28);
     
     % Plot contour lines
-    contour(X, Y, Z, [0.1,-0.1],'color','r');
-    
-    % Remove tick labels
-    ax = gca;
-    ax.XAxis.TickLabels = {' ', ' ', ' '};
-    ax.YAxis.TickLabels = {' ', ' ', ' '};
-    ax.ZAxis.TickLabels = {' ', ' ', ' '};
-    
-    % Add custom labels for ticks
-    text(0, -1.2, -0.1, '$0$', 'interpreter', 'latex', 'fontsize', 20);
-    text(-1.3, 0, 0, '$0$', 'interpreter', 'latex', 'fontsize', 20);
-    text(-1, 1.3, .1, '$1$', 'interpreter', 'latex', 'fontsize', 20);
+    contour(X, Y, Z, [.05,.05],'color','r','linewidth',2);
+    contour(X, Y, Z, [-.05,-.05],'color','b','linewidth',2);
+
+    % Create dummy line objects for legend
+    h1 = line(0, 0, 'Color', 'r','linewidth',2);
+    h2 = line(0, 0, 'Color', 'b','linewidth',2);
+
+    legend([h1, h2],{'$z=.05$', '$z=-.05$'}, 'Interpreter', 'latex','location','best');
 end
 
 % Example

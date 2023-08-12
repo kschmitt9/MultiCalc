@@ -11,6 +11,8 @@ function ellipsoid(a, b, c)
     % Plot the ellipsoid
     figure;
     surf(X, Y, Z);
+    shading interp;
+    colormap(summer);
     xlabel('x');
     ylabel('y');
     zlabel('z');

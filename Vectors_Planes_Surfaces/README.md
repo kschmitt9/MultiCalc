@@ -5,7 +5,7 @@ takes as input two 3D row vectors, $[a,b,c]$, whose tails are at the origin and 
 
 <img src="Visuals/vector_animation.gif" alt="alt-text" width="400" height="250">
 
-### crossani.m
+### crossani(vector1,vector2).m
 animates the cross product of two vectors as the angle between them varies from $0$ to $2\pi$. The purpose is to show that the cross product is $0$ when the vectors are parallel and maximum when they are perpendicular.
 
 <img src="Visuals/crossani.gif" alt="alt-text" width="400" height="250">
@@ -18,6 +18,22 @@ draws the parallelogram formed by the two input vectors. Then also draws the pro
 
 ## Planes
 
+### planeandpoint(normal,pointOnPlane,pointOffPlane).m
+draws a plane with one point not on the plane for visualizing the process of finding the shortest distance between a plane and a point
 
+### skewlinesandplanes(point1,direction1,point2,direction2).m
+plots two skew lines defined by the input parameters and then draws the parallel planes going through both lines. Used for demonstrating the process of computing the shortest distance between two lines.
+
+<img src="Visuals/skewlines.png" alt="alt-text" width="400" height="250">
 
 ## Surfaces
+
+### conicsections('conic').m
+draws a cone with a plane whose intersection is the input 'conic'. Accepts 'line','parabola','circle', or 'hyperbola' as parameters. Purpose is to remind students about the conic sections and explain to them that the forthcoming **quadric surfaces are the 3D extension of the quadratic curves** they learned in highschool and single variable calculus.
+
+<img src="Visuals/conic.png" alt="alt-text" width="400" height="250">
+
+### hyperbolicparaboloid(a,b).m
+draws a hyperbolic paraboloid $z=ax^2-by^2$ with level curves $z=-.05,.05$ in blue and red respectively.
+
+<img src="Visuals/hyperbolicparaboloid.png" alt="alt-text" width="400" height="250">

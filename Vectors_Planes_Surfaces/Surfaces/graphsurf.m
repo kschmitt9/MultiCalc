@@ -1,6 +1,6 @@
 function graphsurf(f)
     % Create a grid of points to plot the 2D function
-    [X, Y] = meshgrid(linspace(-1, 2, 101),linspace(-4, 1, 101));
+    [X, Y] = meshgrid(linspace(-4, 4, 101),linspace(-4, 4, 101));
     
     % Calculate the Z coordinates for the function
     Z = f(X, Y);

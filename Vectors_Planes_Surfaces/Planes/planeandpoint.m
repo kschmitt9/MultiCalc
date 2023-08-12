@@ -11,7 +11,7 @@ function planeandpoint(N, P0, P1)
     hold on;
     
     % Plot the point not on the plane
-    plot3(P1(1), P1(2), P1(3), 'bo', 'MarkerSize', 10, 'LineWidth', 2);
+    plot3(P1(1), P1(2), P1(3), 'b', 'MarkerSize', 10, 'LineWidth', 2);
     
     % Set the axis labels and title
     xlabel('X');
