@@ -4,7 +4,7 @@
 ### lvlcurve(f,gridType).m,
 Draws the surface defined by $z=f(x,y)$ with coordinate basis 'cart' for cartesian and 'pol' for polar. Then draws a separate contour graph showing sample level curves.
 
-Elliptic paraboloids with axis domainted by the $y$-axis and $x$-axis respectively.
+Elliptic paraboloids with axis dominated by the $y$-axis and $x$-axis respectively.
 
 <div style="display: flex; justify-content: center;">
   <img src="Visuals/paraboloid_x.png" alt="alt-text" width="400" height="250">
