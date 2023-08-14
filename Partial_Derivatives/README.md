@@ -69,4 +69,18 @@ The tangent plane at the peak of the *mountain* appears to be a terrible approxi
   <img src="Visuals/mountain_tangent3.png" alt="alt-text" width="300" height="250">
 </div>
 
+### direction_deriv(f_sym,a,b,t,rng,n_frames).m
+
+Same input as the above two functions with the added functionality to choose how many frames of direction you wish to show. The function plots a surface defined by $f_{sym}$, then animates different directional derivatives to the surface at the point $(a,b)$.
+
+The elliptic paraboloid $f(x,y)=x^2+y^2$ plotted with its directional derivatives at the point $(4,4)$
+
+<img src="Visuals/paraboloid_dirder.gif" alt="alt-text" width="400" height="250">
+
+##
+
+The *mountain* $f(x,y)=20/(x^2+y^2+3)$ with its directional derivatives at the point $(1.5,1)$.
+
+<img src="Visuals/mountain_dirder.gif" alt="alt-text" width="400" height="250">
+
 
