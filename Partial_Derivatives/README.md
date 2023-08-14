@@ -50,9 +50,9 @@ Zooming in on the point $(4,4)$ reveals that the tangent plane is a good local a
 
 <div style="display: flex; justify-content: center;">
   <img src="Visuals/paraboloid_tangent1.png" alt="alt-text" width="300" height="250">
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+  &nbsp;
   <img src="Visuals/paraboloid_tangent2.png" alt="alt-text" width="300" height="250">
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+  &nbsp;
   <img src="Visuals/paraboloid_tangent3.png" alt="alt-text" width="300" height="250">
 </div>
 
@@ -62,9 +62,9 @@ The tangent plane at the peak of the *mountain* appears to be a terrible approxi
 
 <div style="display: flex; justify-content: center;">
   <img src="Visuals/mountain_tangent1.png" alt="alt-text" width="300" height="250">
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+  &nbsp;
   <img src="Visuals/mountain_tangent2.png" alt="alt-text" width="300" height="250">
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+  &nbsp;
   <img src="Visuals/mountain_tangent3.png" alt="alt-text" width="300" height="250">
 </div>
 
