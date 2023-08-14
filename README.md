@@ -9,10 +9,10 @@ This section is contained in the 'Vectors_Planes_Surfaces' folder, covering chap
 
 ## Space Curves, Brief Vector Calculus, Arclength and Curvature
 
-This section is contained in the 'Curvature_SpaceCurves' folder, covering chapter 13 of *Early Transcendentals* and section 5.A of *An Illustrative Guide to Multivariable Calculus*. The highlights are **(1)** animations for space curves and **(2)** animating the circle of curvature and the normal and tangent vectors as the curve is traversed in time.
+This section is contained in the 'Space_Curves' folder, covering chapter 13 of *Early Transcendentals* and section 5.A of *An Illustrative Guide to Multivariable Calculus*. The highlights are **(1)** animations for space curves and **(2)** animating the circle of curvature and the normal and tangent vectors as the curve is traversed in time.
 
-## Functions of Several Variables, Partial Derivatives, The Gradient
+## Functions of Several Variables, Partial Derivatives, and the Gradient
 
-## Multiple Integration
+This Section is contained in the 'Partial_Derivatives' folder, covering chapter 14 of *Early Transcendentals* and chapter 2 of *An Illustrative Guide to Multivariable Calculus*. The highlights are
 
 ## Vector Calculus
