@@ -20,7 +20,6 @@ function spacecurve(x_func, y_func, z_func, t, frame_rate)
     ylabel('y');
     zlabel('z');
     grid on;
-    axis equal;
 
     % % Set axis limits
     % xlim([min(x) max(x)]);
@@ -31,7 +30,7 @@ function spacecurve(x_func, y_func, z_func, t, frame_rate)
     frames(length(t)) = struct('cdata',[],'colormap',[]);
 
     % Set the view point for 3D plot
-    view(175, 30); % Set the azimuth and elevation angles
+    view(149, 39); % Set the azimuth and elevation angles
     
     % Capture the first frame before entering the loop
     drawnow
