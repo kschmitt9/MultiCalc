@@ -9,7 +9,7 @@ This section is contained in the 'Vectors_Planes_Surfaces' folder, covering chap
 
 <div style="display: flex; justify-content: center;">
   <img src="Vectors_Planes_Surfaces/Visuals/vector_animation.gif" alt="alt-text" width="400" height="250">
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+  &nbsp; &nbsp; &nbsp;
   <img src="Vectors_Planes_Surfaces/Visuals/crossani.gif" alt="alt-text" width="400" height="250">
 </div>
 
@@ -19,7 +19,7 @@ This section is contained in the 'Space_Curves' folder, covering chapter 13 of *
 
 <div style="display: flex; justify-content: center;">
   <img src="Space_Curves/Visuals/trefoil-knot.gif" alt="alt-text" width="400" height="250">
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+  &nbsp; &nbsp; &nbsp;
   <img src="Space_Curves/Visuals/saddle_cylinder.gif" alt="alt-text" width="400" height="250">
 </div>
 
@@ -30,7 +30,7 @@ This Section is contained in the 'Partial_Derivatives' folder, covering chapter 
 
 <div style="display: flex; justify-content: center;">
   <img src="Partial_Derivatives/Visuals/hills.png" alt="alt-text" width="400" height="250">
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+  &nbsp; &nbsp; &nbsp;
   <img src="Partial_Derivatives/Visuals/mountain_partials.png" alt="alt-text" width="400" height="250">
 </div>
 
@@ -38,7 +38,7 @@ This Section is contained in the 'Partial_Derivatives' folder, covering chapter 
 
 <div style="display: flex; justify-content: center;">
   <img src="Partial_Derivatives/Visuals/paraboloid_tangent2.png" alt="alt-text" width="400" height="250">
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+  &nbsp; &nbsp; &nbsp; 
   <img src="Partial_Derivatives/Visuals/mountain_dirder.gif" alt="alt-text" width="400" height="250">
 </div>
 
@@ -48,7 +48,7 @@ This section is contained in the 'Integration' folder, covering chapter 15 of *E
 
 <div style="display: flex; justify-content: center;">
   <img src="Integration/Visuals/integrateR1.png" alt="alt-text" width="400" height="250">
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+  &nbsp; &nbsp; &nbsp;
   <img src="Integration/Visuals/animatedPhi.gif" alt="alt-text" width="400" height="250">
 </div>
 
@@ -58,6 +58,6 @@ This section is contained in 'Vector_Calculus', covering chapter 16 of *Early Tr
 
 <div style="display: flex; justify-content: center;">
   <img src="Vector_Calculus/Visuals/xy_y^2,x^2curves.gif" alt="alt-text" width="400" height="250">
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+  &nbsp; &nbsp; &nbsp; 
   <img src="Vector_Calculus/Visuals/helicoid_field.png" alt="alt-text" width="400" height="250">
 </div>
