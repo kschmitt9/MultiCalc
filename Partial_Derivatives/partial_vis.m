@@ -26,6 +26,10 @@ function partial_vis(f_sym, a, b, t, rng)
     tangent_line_x = dfdx_fun(a, b).*(t - a) + z0;
     tangent_line_y = dfdy_fun(a, b).*(t - b) + z0;
 
+    % Compute the slopes at (a, b)
+    slope_x = dfdx_fun(a, b);
+    slope_y = dfdy_fun(a, b);
+
     % Compute cross-sections at (a, b)
     cross_section_x = arrayfun(@(y) f(a, y), t);
     cross_section_y = arrayfun(@(x) f(x, b), t);
@@ -49,6 +53,10 @@ function partial_vis(f_sym, a, b, t, rng)
     ylabel('y-axis');
     zlabel('z-axis');
     legend([d1,d2,h1,h2],'f_x Tangent', 'f_y Tangent', 'x Cross-section', 'y Cross-section','location','best');
+    % Create text annotations with slopes
+    text(a-.5, b+0.5, z0+0.5, sprintf('$f_{x}$: %.2f', dfdx_fun(a,b)), 'Color', 'r', 'FontSize', 14, 'Interpreter', 'latex');
+    text(a+.5, b-0.5, z0+0.5, sprintf('$f_{y}$: %.2f', dfdy_fun(a,b)), 'Color', 'b', 'FontSize', 14, 'Interpreter', 'latex');
+    
 
     hold off;
     grid on;
